@@ -4,8 +4,8 @@ I Accepted the challenge. Please check Part 1 and Part 2. The site rating in the
 
 ### Getting started
 After downloading the .zip file, extract the content to a folder in your device.
-1. Run the site on your local machine.
 
+Before you can start, run the site on your local machine.
   ```bash
   $> cd /path/to/your-project-folder
   $> python -m SimpleHTTPServer 8080
@@ -13,10 +13,10 @@ After downloading the .zip file, extract the content to a folder in your device.
 1. Open a browser and visit localhost:8080
 1. Download and install [ngrok](https://ngrok.com/) to the top-level of your project directory to make your local server accessible remotely.
 
-    ``` bash
-    $> cd /path/to/your-project-folder
-    $> ./ngrok http 8080
-    ```
+   ``` bash
+   $> cd /path/to/your-project-folder
+   $> ./ngrok http 8080
+   ```
 
 1. Copy the public URL ngrok gives you and try running it through PageSpeed Insights!
 
